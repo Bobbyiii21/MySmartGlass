@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "nesting-navigators-|-react-navigation",
+    "name": "MySmartGlass",
     "slug": "snack-0d735c04-403f-4adf-b3fb-6656b74b004a",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hyperlapse.SmartGlass"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hyperlapse.SmartGlass"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3f3879a9-74c4-4b41-921f-178f71df96c0"
+      }
     }
   }
 }

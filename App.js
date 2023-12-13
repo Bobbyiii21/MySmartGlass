@@ -145,10 +145,11 @@ function MyTabs() {
       initialRouteName="Objects"
       screenOptions={{
         tabBarActiveTintColor: "rgb(181,168,214)",
-        tabBarStyle: { backgroundColor: "rgb(25,25,25)" },
+        tabBarStyle: { backgroundColor: "rgb(25,25,25)", },
         headerStyle: { backgroundColor: "rgb(181,168,214)" , height: 125},
         headerTitleStyle: { fontWeight: "bold", color: "#000", fontSize: 35 },
         headerTitleAlign: "left",
+        
       }}
     >
       <Tab.Screen
