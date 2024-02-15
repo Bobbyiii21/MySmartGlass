@@ -18,7 +18,6 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 function Objects() {
-  
 
   const [data, setData] = useState([]);
 
@@ -60,6 +59,11 @@ function Objects() {
         <Text style={objectStyles.text}> {data?.waterBottle}</Text>
       </View>
       <View style={objectStyles.separator} />
+      <View>
+        <Text style={[objectStyles.text, { fontWeight: 'bold' }]}>Tablet:</Text>
+        <Text style={objectStyles.text}> {data?.tablet}</Text>
+      </View>
+      <View style={objectStyles.separartor} />
       </ScrollView>
     </View>
   );
